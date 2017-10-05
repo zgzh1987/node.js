@@ -1,0 +1,18 @@
+.x1{
+    display:block;
+    padding:20px;
+    border:2px silver;
+    text-align:center;
+    width:800px;
+    background-color:#707070;
+    color: aqua;
+
+}
+.x2
+{
+    display:none;
+    padding: 20px;
+    border:2px silver;
+    width:800px;
+
+}
