@@ -6,14 +6,18 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="/jquery-3.2.1.min.js" type="text/javascript"></script>
-<link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-3.2.1.min.js"></script>
 </head>
 <body>
-<div id="x1">show  me the Frry frind of the Day</div>
-<div id="x2"><img src="/images/timg.jpg"> </div>
+<div class="x1">Show ME the Furry Friend of the day</div>
+<div class="x2"><img src="timg%20(4).jpg" alt=""></div>
 <script>
-
+    $(document).ready(function () {
+        $(.x1).click(function () {
+            $(img).fadeIn(1000);
+        })
+    });
 </script>
 </body>
 </html>
