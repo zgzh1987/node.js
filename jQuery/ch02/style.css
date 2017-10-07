@@ -1,0 +1,23 @@
+.header{
+    width:100%;
+    text-align:center;
+    background-color:#f6f6f5;
+    color:#red;
+    height:50px;
+
+}
+.main{
+    height:500px;
+    background-color:#707070;
+width:800px;
+    margin:0 auto;
+
+}
+.x1{
+    float:left;
+    border:solid aquamarine 5px;
+    width:150px;
+    height:41%;
+
+
+}
