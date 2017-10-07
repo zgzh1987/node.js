@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+    <h2>Jump for Joy Sale</h2>
+</div>
+<div class="main">
+    <div class="x1"><img src="#" alt="猫1"></div>
+    <div class="x1"><img src="#" alt="猫2"></div>
+    <div class="x1"><img src="#" alt="猫3"></div>
+    <div class="x1"><img src="#" alt="猫4"></div>
+</div>
+<script src="jquery-3.2.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".x1").click(function () {
+            var discount=Math.floor((Math.random()*5)+5);
+            var discount_msg="<p>your discont is"+discount+"%</p>"
+//            alert(discount)
+            $(this).append(discount_msg);
+        })// end click实践
+    })//end jquery封装
+</script>
+</body>
+</html>
