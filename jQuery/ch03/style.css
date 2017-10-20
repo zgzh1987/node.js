@@ -1,0 +1,17 @@
+.header{
+    width:100%;
+    text-align:center;
+    background-color:#009926;
+    font-size:18px;
+    border:solid 5px darkkhaki;
+}
+.main{
+    width:800px;
+    float: left;
+    background-color:#009999;
+    height:800px;
+}
+.x1{
+    border:2px solid #111111;
+    height:400px;
+}
