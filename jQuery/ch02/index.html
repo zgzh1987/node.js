@@ -18,6 +18,7 @@
     <div class="x1"><img src="" alt="猫1" title="猫3"></div>
     <div class="x1"><img src="" alt="猫1" title="猫4"></div>
 </div>
+<span class="x10">zzzz2222zzzzzzzzzzzzzzzzzzzzzzzzzzzzz</span>
 <script src="jquery-3.2.1.min.js"></script>
 <script>
     $(document).ready(function () {
@@ -28,6 +29,9 @@
             $(this).append(x3)
             $(this).unbind("click");
 
+        })
+        $(".x10").bind('click',function () {
+            alert($(this).text())
         })
     })
 </script>
